@@ -3,7 +3,7 @@ variable "business_divsion" {
   type = string
   default = "sap"
 }
-
+#Note: type can be of multiple types: type = string, list(string), map(string), boolean
 variable "environment" {
   description = "Environment Variable used as a prefix"
   type = string
